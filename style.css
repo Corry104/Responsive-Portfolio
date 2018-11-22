@@ -18,7 +18,6 @@ body    {
     }
 
 header { 
-    position: static;
     background: #4aaaa5;
     width: 100%;
     height: 60px;
@@ -196,15 +195,105 @@ h4 {
     padding:   1.3%;
     margin-top: 60%;    
 }
+ 
 
 @media only screen and (max-width: 980px) {
-    body, nav, .main_container, header {
+    body, .main_container, header, nav, h1 {
+      background-color: lemonchiffon;
+      width: 100%px;
+    }
+
+    header {
+        position: static;
+        width: 100%;
+        height: 100px;
+    }
+
+    h1 {
+        width: 100%;
+        height: 60%;
+        margin: 0;
+        color: blue
+    }
+
+    nav a{
+        margin: 0% 5% 0% 16%;        
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    .main_container {
+        margin-top: 20%;
+        width: 100%;
+    }
+}   
+
+
+@media only screen and (max-width: 768px) {
+    body, .main_container, header, nav, h1 {
+      background-color: salmon;
+      width: 100%px;
+    }
+
+    header {
+        position: static;
+        width: 100%;
+        height: 100px;
+    }
+
+    h1 {
+        width: 100%;
+        height: 60%;
+        margin: 0;
+        color: bisque;
+    }
+
+    nav a{
+        margin-left: 14%;        
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    .main_container {
+        margin-top: 20%;
+        width: 100%
+    }
+}  
+
+
+@media only screen and (max-width: 640px) {
+    body, .main_container, header, nav, h1 {
       background-color: lightblue;
-      float: none;
-      width: 100%;
-      display: block;
-      
-      
+      width: 100%px;
+    }
+
+    header {
+        position: static;
+        width: 100%;
+        height: 100px;
+    }
+
+    h1 {
+        width: 100%;
+        height: 60%;
+        margin: 0;
+    }
+
+    nav a   {
+        margin-left: 13%;        
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    .main_container {
+        margin-top: 20%;
+        width: 100%;
     }
 }  
 
